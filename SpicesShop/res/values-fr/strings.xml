@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">SpicesShop</string>
+    <string name="str_title">SpicesShop</string>
+    <string name="str_paprika">Le Paprika est la poudre d\'une variété de piment rouge très doux (capsicum anuum) cultivé en Hongrie et qui permet de donner une saveur aux plats. Les hongrois l\'utilisent abondamment dans leurs goulaschs, leurs ragoûts et leurs plats de poulet. Le paprika figure également dans les cuisines espagnoles et portugaises. Un conseil : évitez de le faire saisir dans une matière grasse car cela peut lui conférer une certaine amertume.</string>
+    <string name="str_badiane">Le badianier, arbre rare, est un arbuste à feuilles persistantes pouvant atteindre 8 m de haut qui pousse au sud de la Chine et au Vietnam. L\'anis étoilé, fruit de la badiane, est en forme d\'étoile à huit branches. La Badiane renferme une graine brune, luisante au goût d\'anis et de réglisse, légèrement poivré. C\'est la cosse qui est la plus parfumée. Son nom latin est Pimpinella anisum. La badiane est surtout riche en essence d\'anis (une huile essentielle qui se compose principalement - à 90 à 95% - d\'anéthol).</string>
+    <string name="str_pavotbleu">Le pavot bleu est une plante herbacée vivace à feuillage caduque. Ses graines ont un goût de noisette et sont utilisées en pâtisserie, en Turquie, en Egypte et en Europe centrale. Elles parfument les crèmes, entrent dans la composition de farces, servent à décorer (le pain, les gâteaux). Les graines du pavot bleu donnent du goût aux fromages frais, relèvent pâtes et nouilles et interviennent dans les caris indiens. Elles peuvent aussi décorer les potages et les soupes.</string>
+    <string name="str_cannelle">Le cannelier, cultivé dans les régions tropicales, est un arbre à feuilles persistantes qui peut atteindre 10 mètres de hauteur, dont on utilise l\'écorce séchée brun rouge. La cannelle est une des plus anciennes épices connues. Elle possède une odeur très forte et sa saveur est piquante. En séchant, l\’écorce, dépouillée de son épiderme, s\’enroule sur elle-même, formant des bâtonnets friables ayant la forme d\’un tuyau. La cannelle moulue à une saveur plus prononcée que la cannelle en bâtonnets, mais elle s\’altère plus rapidement.</string>
+    <string name="str_curcuma">Le curcuma, appelé safran des Indes, est une plante très ancienne cultivée depuis au moins deux mille ans en Inde, Chine, et au Moyen-Orient. C\'est une plante robuste, qui peut atteindre 1 mètre de hauteur dans les régions tropicales. Les feuilles du Curcuma sont grandes, vertes, oblongues et effilées et portent des fleurs jaunes. Son rhizome est séché puis réduit en poudre afin d\'obtenir l\'épice. Son arôme est poivré et son goût piquant, musqué, nuancé d\'amertume.</string>
+    <string name="str_reglisse">La réglisse est une plante vivace aux racines aromatiques. Elle est originaire du sud de l\'Europe et de l\'Asie. La réglisse est particulièrement connue pour son utilisation en confiserie. Elle entre dans la composition de gâteaux et aromatise également de nombreuses boissons (pastis de Marseille, l\'antésite). On peut la mâcher pour le plaisir ou comme substitut au tabac. La saveur de la réglisse est fortement anisée et un peu aigre-douce.</string>
+    <string name="str_nigelle">La nigelle aussi appelée « cumin noir », se retrouve sous le nom de « poivrette » dans la Bible et les Indiens l’appelle « kalonji ». Les graines de cette fleur annuelle sont noires. Elles sont utilisées entières ou pilées pour produire une épice à la saveur à la fois fruitée et légèrement piquante. Elles poussent à l\’état sauvage dans toute l\’Asie et le Moyen-Orient, où l\’on s\’en sert comme on emploie le poivre noir en Europe. Connue depuis l\’Antiquité, les graines de nigelle sont très appréciées en Europe jusqu\‘au XVIIe siècle.</string>
+    <string name="str_sumac">Méconnu, le sumac est une épice d\’origine arabe qui relève - sans altérer - le goût des aliments. Le sumac provient des graines de l\’arbuste portant le même nom, qui sont moulues pour donner cette poudre rouge brun.Cette épice a un goût acidulé et remplace facilement le citron dans les plats. Il parfume à merveille les plats libanais, mais également syrien, irakiens, iraniens… un peu partout au moyen orient.</string>
+    <string name="str_title_badiane">Badiane</string>
+    <string name="str_title_paprika">Paprika</string>
+    <string name="str_title_pavotbleu">Pavot Bleu</string>
+    <string name="str_title_canelle">Cannelle</string>
+    <string name="str_title_curcuma">Curcuma</string>
+    <string name="str_title_reglisse">Reglisse</string>
+    <string name="str_title_sumac">Sumac</string>
+    <string name="str_title_nigelle">Nigelle</string>
+    <string name="price_badiane">2€</string>
+    <string name="price_paprika">3€</string>
+    <string name="price_pavotbleu">4€</string>
+    <string name="price_cannelle">1€</string>
+    <string name="price_curcuma">2€</string>
+    <string name="price_reglisse">4€</string>
+    <string name="price_sumac">2€</string>
+    <string name="price_nigelle">1€</string>
+    <string name="str_cartlist">Panier:</string>
+    <string name="str_added">Ajouté au panier</string>
+    <string name="str_print">La transaction a réussi.\nVoulez-vous imprimer le reçu?</string>
+    <string name="str_thanks">Merci de votre visite.</string>
+    <string name="str_empty">Le panier est vide!</string>
+    <string name="str_failed">La transaction a échoué. Merci de réessayer.</string>
+    <string name="str_yes">Oui</string>
+    <string name="str_no">Non</string> 
+    <string name="app_version">Application Version: </string>
+    <string name="build_date">Application Build Date: </string>
+    <string name="addon_version">Add-on Version: </string>
+	<string name="choose_device">Choose your companion:</string>
+	<string name="enable_log">Enable logs</string>
+	<string name="activate_ssl">Use SSL</string>
+    <string name="str_connected">Companion is connected</string>
+    <string name="str_not_connected">Companion is not connected</string>
+    <string name="use_direct_connect">Connexion Directe (IP)</string>
+</resources>

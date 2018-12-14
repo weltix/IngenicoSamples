@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BcrSetupActivity"  >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btnSymbologies" >
+	
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        
+	        <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/bcr_version"
+                android:textSize="15sp" />
+            
+            <EditText
+                android:id="@+id/etVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/tvVersion"
+                android:layout_toRightOf="@+id/tvVersion"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+	        
+	        <TextView
+	            android:id="@+id/tvReaderMode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvVersion"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_reader_mode"
+                android:textSize="15sp" />
+	        
+	        <Spinner
+	            android:id="@+id/spReaderMode"
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:layout_toRightOf="@+id/tvReaderMode"
+	            android:layout_alignTop="@+id/tvReaderMode"
+	            android:entries="@array/bcr_reader_mode_array"
+	            android:textSize="12sp" />
+	        
+	        <TextView
+                android:id="@+id/tvGoodScanBeep"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvReaderMode"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_good_scan_beep"
+                android:textSize="15sp" />
+            
+            <Spinner
+                android:id="@+id/spGoodScanBeep"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tvGoodScanBeep"
+                android:layout_alignTop="@+id/tvGoodScanBeep"
+                android:entries="@array/bcr_good_scan_beep_array"
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/tvEnableTrigger"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvGoodScanBeep"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_enable_trigger"
+                android:textSize="15sp" />
+            
+            <Spinner
+                android:id="@+id/spEnableTrigger"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tvEnableTrigger"
+                android:layout_alignTop="@+id/tvEnableTrigger"
+                android:entries="@array/bcr_enable_trigger_array"
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/tvImagerMode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvEnableTrigger"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_imager_mode"
+                android:textSize="15sp" />
+            
+            <Spinner
+                android:id="@+id/spImagerMode"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tvImagerMode"
+                android:layout_alignTop="@+id/tvImagerMode"
+                android:entries="@array/bcr_imager_mode_array"
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/tvIlluminationMode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvImagerMode"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_illumination_mode"
+                android:textSize="15sp" />
+            
+            <Spinner
+                android:id="@+id/spIlluminationMode"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tvIlluminationMode"
+                android:layout_alignTop="@+id/tvIlluminationMode"
+                android:entries="@array/bcr_illumination_mode_array"
+                android:textSize="12sp" />
+            
+            <TextView
+                android:id="@+id/tvBeepFrequency"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvIlluminationMode"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_beep_frequency"
+                android:textSize="15sp" />
+            
+           <EditText
+               android:id="@+id/etBeepFrequency"
+               android:layout_width="wrap_content"
+               android:layout_height="40dp"
+               android:layout_alignTop="@+id/tvBeepFrequency"
+               android:layout_toRightOf="@+id/tvBeepFrequency"
+               android:ems="10"
+               android:hint="@string/hint_beep_frequency"
+               android:inputType="numberDecimal" >
+
+            </EditText>
+            
+            <TextView
+                android:id="@+id/tvBeepLength"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvBeepFrequency"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_beep_length"
+                android:textSize="15sp" />
+            
+            <EditText
+                android:id="@+id/etBeepLength"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/tvBeepLength"
+                android:layout_toRightOf="@+id/tvBeepLength"
+                android:ems="10"
+                android:hint="@string/hint_beep_length"
+                android:inputType="numberDecimal" >
+
+            </EditText>
+            
+            <TextView
+                android:id="@+id/tvLightingMode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvBeepLength"
+                android:layout_marginTop="30dp"
+                android:text="@string/bcr_lighting_mode"
+                android:textSize="15sp" />
+            
+            <Spinner
+                android:id="@+id/spLightingMode"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/tvLightingMode"
+                android:layout_alignTop="@+id/tvLightingMode"
+                android:entries="@array/bcr_lighting_mode_array"
+                android:textSize="12sp" />
+	        
+	    </RelativeLayout> 
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/btnSymbologies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_symbologies" />
+    
+    <Button
+        android:id="@+id/btnApplyFlash"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnApply"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_apply_flash" />
+    
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_apply" />
+    
+</RelativeLayout>
+    
+

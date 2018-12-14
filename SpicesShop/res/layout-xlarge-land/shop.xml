@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <ImageView
+        android:id="@+id/imageIngenico"
+        android:layout_width="1280dp"
+        android:layout_height="120dp"
+        android:background="#8C8B89"
+        android:scrollbars="none"
+        android:src="@drawable/ingenico" />
+    
+    <ImageButton
+        android:id="@+id/buttonBadiane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageIngenico"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/badiane" />
+
+    <ImageButton
+        android:id="@+id/buttonPaprika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonBadiane"
+        android:layout_marginLeft="76dp"
+        android:layout_toRightOf="@+id/buttonBadiane"
+        android:src="@drawable/paprika" />
+
+    <ImageButton
+        android:id="@+id/buttonPavotBleu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonPaprika"
+        android:layout_marginLeft="76dp"
+        android:layout_toRightOf="@+id/buttonPaprika"
+        android:src="@drawable/pavotbleu" />
+
+    <ImageButton
+        android:id="@+id/buttonCannelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonPavotBleu"
+        android:layout_marginLeft="76dp"
+        android:layout_toRightOf="@+id/buttonPavotBleu"
+        android:src="@drawable/cannelle" />
+
+    <TextView
+        android:id="@+id/textBadiane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/buttonBadiane"
+        android:layout_marginLeft="110dp"
+        android:text="@string/str_title_badiane"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textPaprika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPaprika"
+        android:layout_alignLeft="@+id/buttonPaprika"
+        android:layout_marginLeft="73dp"
+        android:text="@string/str_title_paprika"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textPavotBleu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPavotBleu"
+        android:layout_alignLeft="@+id/buttonPavotBleu"
+        android:layout_marginLeft="50dp"
+        android:text="@string/str_title_pavotbleu"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textCannelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCannelle"
+        android:layout_alignLeft="@+id/buttonCannelle"
+        android:layout_marginLeft="73dp"
+        android:text="@string/str_title_canelle"
+        android:textSize="28dp" />
+
+    <ImageButton
+        android:id="@+id/buttonCurcuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonBadiane"
+        android:layout_marginTop="60dp"
+        android:layout_toLeftOf="@+id/buttonPaprika"
+        android:src="@drawable/curcuma" />
+
+    <ImageButton
+        android:id="@+id/buttonReglisse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPaprika"
+        android:layout_alignTop="@+id/buttonCurcuma"
+        android:src="@drawable/reglissebaton" />
+
+    <ImageButton
+        android:id="@+id/buttonNigelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonReglisse"
+        android:layout_toLeftOf="@+id/buttonCannelle"
+        android:src="@drawable/nigelle" />
+
+    <ImageButton
+        android:id="@+id/buttonSumac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonCannelle"
+        android:layout_alignTop="@+id/buttonNigelle"
+        android:src="@drawable/sumac" />
+
+    <TextView
+        android:id="@+id/textCurcuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonCurcuma"
+        android:layout_below="@+id/buttonCurcuma"
+        android:layout_marginLeft="60dp"
+        android:text="@string/str_title_curcuma"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textReglisse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonReglisse"
+        android:layout_alignLeft="@+id/buttonReglisse"
+        android:layout_marginLeft="50dp"
+        android:text="@string/str_title_reglisse"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textNigelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonNigelle"
+        android:layout_alignLeft="@+id/buttonNigelle"
+        android:layout_marginLeft="50dp"
+        android:text="@string/str_title_nigelle"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textSumac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSumac"
+        android:layout_alignLeft="@+id/buttonSumac"
+        android:layout_marginLeft="50dp"
+        android:text="@string/str_title_sumac"
+        android:textSize="28dp" />
+
+    <ImageButton
+        android:id="@+id/buttonSettings"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/settings" />
+    
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBadiane"
+        android:layout_marginLeft="150dp"
+        android:layout_alignLeft="@+id/buttonSettings" />
+
+    <ImageView
+        android:id="@+id/buttonViewCart"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textViewTotalMain"
+        android:clickable="true"
+        android:src="@drawable/viewcart" />
+
+    <TextView
+        android:id="@+id/textViewTotalMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageIngenico"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#8C8B89"
+        android:layout_marginTop="20dp"
+        android:textSize="32dp" />
+    
+    <ImageView
+        android:id="@+id/buttonActiveCodebar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/buttonViewCart"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:src="@drawable/bar_code_reader_activation" />
+
+</RelativeLayout>

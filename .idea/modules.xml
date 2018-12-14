@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IngenicoSamples.iml" filepath="$PROJECT_DIR$/IngenicoSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pclfilesharingsample/pclfilesharingsample.iml" filepath="$PROJECT_DIR$/pclfilesharingsample/pclfilesharingsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PclTestApp/pcltestapp.iml" filepath="$PROJECT_DIR$/PclTestApp/pcltestapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpicesShop/spicesshop.iml" filepath="$PROJECT_DIR$/SpicesShop/spicesshop.iml" />
+    </modules>
+  </component>
+</project>

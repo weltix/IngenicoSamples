@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">SpicesShop</string>
+    <string name="str_title">SpicesShop</string>
+    <string name="str_paprika">The Paprika is a powdered spice with a deep orange-red colour and a mildly pungent flavour, made from the dried and ground fruits of certain varieties of sweet pepper. Cooking Trick : Avoid to sear in fat because it would taste bitter.</string>
+    <string name="str_badiane">The badianier plant is a bush that grows to 5-6 m high. The leaves are elliptical, persistent and aromatic, with large yellow or purple flowers. Star Anis, describes the star-shape of the eight little aniseed fruit pods from the anise plant, each containing a single grain. Oil extracted from the plant by distillation is used as flavoring and in medicine.</string>
+    <string name="str_pavotbleu">The Meconopsis grandis (also called Blue Poppy) is a genus of flowering plants in the family Papaveraceae. Blue Poppy seeds are more commonly used in Europe and in Hungarian dishes, than their counterpart White Poppy Seeds. The seeds can be found in many Strudels, Hungarian cakes and desserts. They are also the main ingredient in Poppy Seed Stuffing which is a main staple in a Hungarian Christmas Eve dinner.</string>
+    <string name="str_cannelle">The Cinnamon is a spice obtained from the inner bark of several trees from the genus Cinnamomum that is used in both sweet and savoury foods. While native only to the island of Sri Lanka, cinnamon trees are now naturalized in South East Asia.</string>
+    <string name="str_curcuma">The Curcuma is a small perennial herb native to India bearing many rhizomes on its root system which are the source of its culinary spice known as Turmeric and its medicinal extract called Curcumin. It has a slight earthy flavor and little aroma.</string>
+    <string name="str_reglisse">Liquorice or licorice is the root of Glycyrrhiza glabra from which a somewhat sweet flavor can be extracted. The liquorice plant is a legume (related to beans and peas) that is native to southern Europe and parts of Asia. It is not related to anise, star anise, or fennel, which are the sources of similar-tasting flavouring compounds.</string>
+    <string name="str_nigelle">Nigella sativa is an annual flowering plant, native to south and southwest Asia. It grows to 20–30 cm (7.9–12 in) tall, with finely divided, linear (but not thread-like) leaves. The flowers are delicate, and usually coloured pale blue and white, with five to ten petals. The fruit is a large and inflated capsule composed of three to seven united follicles, each containing numerous seeds which are used as spice in asian cooking.</string>
+    <string name="str_sumac"> The Sumac is any one of approximately 250 species of flowering plants in the genus Rhus and related genera, in the family Anacardiaceae. Sumacs grow in subtropical and temperate regions throughout the world, especially in Africa and North America. In Arab cuisine, it is used as a garnish on meze dishes such as hummus and is added to salads in the Levant. In Iranian (Persian and Kurdish) cuisine, sumac is added to rice or kebab. In Turkish cuisine, it is added to salad-servings of kebabs and lahmacun. Rhus coriaria is used in the spice mixture za\'atar.</string>
+    <string name="str_title_badiane">Star Anis</string>
+    <string name="str_title_paprika">Paprika</string>
+    <string name="str_title_pavotbleu">Meconopsis grandis</string>
+    <string name="str_title_canelle">Cinnamon</string>
+    <string name="str_title_curcuma">Curcuma</string>
+    <string name="str_title_reglisse">Liquorice</string>
+    <string name="str_title_sumac">Sumac</string>
+    <string name="str_title_nigelle">Nigelle</string>
+    <string name="price_badiane">2€</string>
+    <string name="price_paprika">3€</string>
+    <string name="price_pavotbleu">4€</string>
+    <string name="price_cannelle">1€</string>
+    <string name="price_curcuma">2€</string>
+    <string name="price_reglisse">4€</string>
+    <string name="price_sumac">2€</string>
+    <string name="price_nigelle">1€</string>
+    <string name="str_cartlist">Cart list:</string>
+    <string name="str_added">Added to cart</string>
+    <string name="str_print">Transaction succeeded.\nDo you want to print receipt?</string>
+    <string name="str_thanks">Thanks for your visit.</string>
+    <string name="str_empty">Cart is empty!</string>
+    <string name="str_failed">Transaction failed. Please try again.</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string> 
+    <string name="app_version">Application Version: </string>
+    <string name="build_date">Application Build Date: </string>
+    <string name="addon_version">Add-on Version: </string>
+	<string name="choose_device">Choose your companion:</string>
+	<string name="enable_log">Enable logs</string>
+	<string name="activate_ssl">Use SSL</string>
+    <string name="str_connected">Companion is connected</string>
+    <string name="str_not_connected">Companion is not connected</string>
+    <string name="use_direct_connect">Direct Connect (IP)</string>
+</resources>

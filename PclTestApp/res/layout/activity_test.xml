@@ -1,0 +1,300 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="State"
+        android:textSize="15dp" />
+    
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginBottom="10dp"
+        android:text="Description"
+        android:textSize="15dp" />
+    
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescription"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+    
+            <TextView
+                android:id="@+id/tvStatic2"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Static2"
+                android:textSize="15dp" />
+            
+            <EditText
+                android:id="@+id/etStatic2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic2"
+                android:layout_alignTop="@+id/tvStatic2"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:text="Static2" />
+            
+            <TextView
+                android:id="@+id/tvStatic3"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etStatic2"
+                android:text="Static3"
+                android:textSize="15dp" />
+            
+            <EditText
+                android:id="@+id/etStatic3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic3"
+                android:layout_alignTop="@+id/tvStatic3"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:text="Static3" />
+            
+            <TextView
+                android:id="@+id/tvStatic4"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etStatic3"
+                android:text="Static4"
+                android:textSize="15dp" />
+            
+            <EditText
+                android:id="@+id/etStatic4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic4"
+                android:layout_alignTop="@+id/tvStatic4"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:text="Static4"/>
+            
+            <TextView
+                android:id="@+id/tvStatic5"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/etStatic2"
+                android:layout_alignTop="@+id/tvStatic2"
+                android:text="Static5"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp" />
+            
+            <TextView
+                android:id="@+id/tvStatic6"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvStatic5"
+                android:layout_alignTop="@+id/tvStatic3"
+                android:text="Static6"
+                android:textSize="15dp" />
+            
+            <TextView
+                android:id="@+id/tvStatic7"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvStatic5"
+                android:layout_alignTop="@+id/tvStatic4"
+                android:text="Static7"
+                android:textSize="15dp" />
+                
+             <TextView
+                android:id="@+id/tvStatic8"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etStatic4"
+                android:text="Static8"
+                android:textSize="15dp" />
+            
+            <EditText
+                android:id="@+id/etStatic5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic8"
+                android:layout_alignTop="@+id/tvStatic8"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:text="Static5"/>
+            
+                 <TextView
+                android:id="@+id/tvStatic10"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/etStatic5"
+                android:text="Static10"
+                android:textSize="15dp" />
+            
+            <EditText
+                android:id="@+id/etStatic7"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic10"
+                android:layout_alignTop="@+id/tvStatic10"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:text="Static7"/>
+            
+            <TextView
+                android:id="@+id/tvStatic9"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvStatic5"
+                android:layout_alignTop="@+id/tvStatic8"
+                android:text="Static9"
+                android:textSize="15dp" />
+            
+            <EditText
+                android:id="@+id/etStatic6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic9"
+                android:layout_alignTop="@+id/tvStatic9"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:inputType="none"
+                android:text="Static6"/>
+            
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/etStatic7"
+                android:layout_alignLeft="@+id/etStatic6"
+                android:text="Hexa" />
+             
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvStatic5"
+                android:layout_alignTop="@+id/tvStatic2"/>
+            
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinner1"
+                android:layout_alignTop="@+id/tvStatic3"/>
+            
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/spinner1"
+                android:layout_alignTop="@+id/tvStatic4"/>
+            
+            <CheckBox
+                    android:id="@+id/checkBoxlocalBridge"
+                    android:layout_toRightOf= "@+id/etStatic4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="use local bridge"
+                    android:visibility="gone" />
+            
+            
+        
+            <LinearLayout
+                android:id="@+id/ll"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/etStatic7"
+                android:visibility="invisible" >
+                   
+            </LinearLayout>
+
+            
+
+        
+    
+    <Button
+        android:id="@+id/buttonRun"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/button_run" />
+    
+    <TextView
+        android:id="@+id/tvStatusTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonRun"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:text="Status"
+        android:textSize="15dp" />
+    
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatusTitle"
+        android:background = "#ffffff"
+        android:textColor="#000000" />
+   <TextView
+        android:id="@+id/tvResultTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStatus"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:text="Result"
+        android:textSize="15dp" />
+   
+   <ScrollView
+       android:id="@+id/sv2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_below="@+id/tvResultTitle"
+       android:layout_alignParentLeft="true">
+       <EditText
+           android:id="@+id/tvResult"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           
+           android:background="#ffffff"
+           android:textColor="#000000" />
+   </ScrollView>
+   
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

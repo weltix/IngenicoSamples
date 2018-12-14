@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\55249de248f05e171538f810233592f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\cd74cebcb13069c6d2531bbe82185f1f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f06b5c976ae23a81749cc1e5319ca908\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\5acf71bc6e9cc01f070d692dd4817b3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\bf4c276f12a4bb02ed2e2395af70cc07\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\537a4d590d834e5915a9b9a613ff5186\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\836b5f24e628b1b0e4020b6085bb7b73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\75d4d587775f4c8513f31a24c89ae453\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\651ab3221aff9b561df11762861e797c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\3c96147b0fa79f36bb97ddd8ce2c1ab4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:3:5-45
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:1-80:12
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:10:22-73
+uses-feature#android.hardware.usb.host
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:12:19-59
+application
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:14:5-78:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:18:9-51
+activity#com.ingenico.pcltestappwithlib.SplashActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:19:9-26:20
+	android:theme
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:21:13-77
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:20:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:24:27-74
+activity#com.ingenico.pcltestappwithlib.WelcomeActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:27:9-43:20
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:29:13-45
+	android:launchMode
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:28:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:31:13-35:29
+category#android.intent.category.DEFAULT
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:34:27-73
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:36:13-38:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:37:17-90
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:37:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:40:13-42:61
+	android:resource
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:42:17-58
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:41:17-79
+activity#com.ingenico.pcltestappwithlib.InputSimulActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:44:9-47:61
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:46:13-48
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:45:13-47
+activity#com.ingenico.pcltestappwithlib.PclLoopTestActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:48:9-51:61
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:50:13-46
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:49:13-48
+activity#com.ingenico.pcltestappwithlib.TestListActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:52:9-54:73
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:54:13-61
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:53:13-45
+activity#com.ingenico.pcltestappwithlib.DetailedTestListActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:55:9-57:82
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:57:13-70
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:56:13-53
+activity#com.ingenico.pcltestappwithlib.TestActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:58:9-61:68
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:61:13-56
+	android:configChanges
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:60:13-48
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:59:13-41
+activity#com.ingenico.pcltestappwithlib.CaptureSignature
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:62:9-67:59
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:65:13-51
+	android:excludeFromRecents
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:64:13-46
+	android:launchMode
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:66:13-43
+	android:theme
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:67:13-56
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:63:13-75
+activity#com.ingenico.pcltestappwithlib.BcrSetupActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:68:9-70:73
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:70:13-61
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:69:13-75
+activity#com.ingenico.pcltestappwithlib.SymbologiesActivity
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:72:9-74:75
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:74:13-63
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:73:13-78
+service#com.ingenico.pclservice.PclService
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:76:9-70
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:76:18-67
+service#com.ingenico.pclservice.BluetoothService
+ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:77:9-76
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml:77:18-73
+uses-sdk
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\55249de248f05e171538f810233592f0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\55249de248f05e171538f810233592f0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\cd74cebcb13069c6d2531bbe82185f1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\cd74cebcb13069c6d2531bbe82185f1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f06b5c976ae23a81749cc1e5319ca908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f06b5c976ae23a81749cc1e5319ca908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\5acf71bc6e9cc01f070d692dd4817b3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\5acf71bc6e9cc01f070d692dd4817b3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\bf4c276f12a4bb02ed2e2395af70cc07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\bf4c276f12a4bb02ed2e2395af70cc07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\537a4d590d834e5915a9b9a613ff5186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\537a4d590d834e5915a9b9a613ff5186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\836b5f24e628b1b0e4020b6085bb7b73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\836b5f24e628b1b0e4020b6085bb7b73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\75d4d587775f4c8513f31a24c89ae453\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\75d4d587775f4c8513f31a24c89ae453\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\651ab3221aff9b561df11762861e797c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\651ab3221aff9b561df11762861e797c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\3c96147b0fa79f36bb97ddd8ce2c1ab4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\3c96147b0fa79f36bb97ddd8ce2c1ab4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+		INJECTED from D:\Projects\IngenicoSamples\pcltestapp\AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:26:13-58

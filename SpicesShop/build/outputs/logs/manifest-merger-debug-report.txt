@@ -1,0 +1,206 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\55249de248f05e171538f810233592f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\cd74cebcb13069c6d2531bbe82185f1f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f06b5c976ae23a81749cc1e5319ca908\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\5acf71bc6e9cc01f070d692dd4817b3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\bf4c276f12a4bb02ed2e2395af70cc07\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\537a4d590d834e5915a9b9a613ff5186\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\836b5f24e628b1b0e4020b6085bb7b73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\75d4d587775f4c8513f31a24c89ae453\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\651ab3221aff9b561df11762861e797c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\3c96147b0fa79f36bb97ddd8ce2c1ab4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:1-70:12
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:11:22-72
+uses-feature#android.hardware.usb.host
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:13:5-62
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:13:19-59
+application
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:15:5-68:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:17:9-38
+	android:theme
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:19:9-67
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:16:9-34
+activity#com.ingenico.spicesshop.MainActivity
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:20:9-29:20
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:24:13-50
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:22:13-45
+	android:noHistory
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:27:27-74
+activity#com.ingenico.spicesshop.AccueilActivity
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:34:13-50
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:32:13-45
+	android:launchMode
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:31:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:35:13-38:29
+category#android.intent.category.DEFAULT
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:37:27-73
+activity#com.ingenico.spicesshop.ShopActivity
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:40:9-48:20
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:43:13-50
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:41:13-41
+intent-filter#action:name:android.intent.action.FLIPPER+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:44:13-47:29
+action#android.intent.action.FLIPPER
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:45:17-72
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:45:25-69
+activity#com.ingenico.spicesshop.CartActivity
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:49:9-52:62
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:52:13-50
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:50:13-41
+activity#com.ingenico.spicesshop.ConnectionActivity
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:53:9-64:20
+	android:screenOrientation
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:56:13-50
+	android:label
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:54:13-47
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:58:13-60:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:59:17-90
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:59:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:61:13-63:61
+	android:resource
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:63:17-58
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:62:17-79
+service#com.ingenico.pclservice.PclService
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:66:9-70
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:66:18-67
+service#com.ingenico.pclservice.BluetoothService
+ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:67:9-76
+	android:name
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml:67:18-73
+uses-sdk
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\55249de248f05e171538f810233592f0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\55249de248f05e171538f810233592f0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\cd74cebcb13069c6d2531bbe82185f1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\cd74cebcb13069c6d2531bbe82185f1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f06b5c976ae23a81749cc1e5319ca908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.0.aar\f06b5c976ae23a81749cc1e5319ca908\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\5acf71bc6e9cc01f070d692dd4817b3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\5acf71bc6e9cc01f070d692dd4817b3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\bf4c276f12a4bb02ed2e2395af70cc07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\bf4c276f12a4bb02ed2e2395af70cc07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\537a4d590d834e5915a9b9a613ff5186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\537a4d590d834e5915a9b9a613ff5186\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\836b5f24e628b1b0e4020b6085bb7b73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\836b5f24e628b1b0e4020b6085bb7b73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\75d4d587775f4c8513f31a24c89ae453\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.0.aar\75d4d587775f4c8513f31a24c89ae453\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\651ab3221aff9b561df11762861e797c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\651ab3221aff9b561df11762861e797c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\3c96147b0fa79f36bb97ddd8ce2c1ab4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\3c96147b0fa79f36bb97ddd8ce2c1ab4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		ADDED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+		INJECTED from D:\Projects\IngenicoSamples\spicesshop\AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User_test\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9e1152449e40eb2f9ef612152bda1d9b\AndroidManifest.xml:26:13-58

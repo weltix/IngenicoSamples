@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Dec 14 12:58:32 EET 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Projects\\IngenicoSamples\\spicesshop\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=logo_spice.bmp
+0.set=ASSET
+count=1

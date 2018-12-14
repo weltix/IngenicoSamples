@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/TextView_serverstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/TextView_serverstatus" />
+    
+    <Button
+        android:id="@+id/button_gettime"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView_serverstatus"
+        android:text="@string/button_gettime" />
+    
+    <Button
+        android:id="@+id/button_settime"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button_gettime"
+        android:layout_alignBottom="@+id/button_gettime"
+        android:layout_toRightOf="@+id/button_gettime"
+        android:text="@string/button_settime" />
+    
+    <Button
+        android:id="@+id/button_inputsimul"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/button_settime"
+        android:layout_toRightOf="@+id/button_settime"
+        android:text="@string/button_inputsimul" />
+
+    <Button
+        android:id="@+id/button_m2osshortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_inputsimul"
+        android:layout_alignTop="@+id/button_inputsimul"
+        android:text="@string/button_m2osshortcut" />
+
+    <Button
+        android:id="@+id/button_printtext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_inputsimul"
+        android:text="@string/button_printtext" />
+
+    <Button
+        android:id="@+id/button_printbitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_printtext"
+        android:layout_alignTop="@+id/button_printtext"
+        android:text="@string/button_printbitmap" />
+    
+    <Button
+        android:id="@+id/button_storelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_printtext"
+        android:text="@string/button_storelogo" />
+    
+    <Button
+        android:id="@+id/button_printlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_storelogo"
+        android:layout_alignTop="@+id/button_storelogo"
+        android:text="@string/button_printlogo" />
+    
+    <Button
+        android:id="@+id/button_printerstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_printbitmap"
+        android:layout_alignTop="@+id/button_printbitmap"
+        android:text="@string/button_printerstatus" />
+
+    
+
+    <Button
+        android:id="@+id/button_getterminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_storelogo"
+        android:text="@string/button_getterminfo" />
+
+    <TextView
+        android:id="@+id/textView_terminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/TextView_result"
+        android:layout_alignTop="@+id/TextView_result" />
+
+    <Button
+        android:id="@+id/button_gettermcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_getterminfo"
+        android:layout_alignTop="@+id/button_getterminfo"
+        android:text="@string/button_gettermcomp" />
+
+    <Button
+        android:id="@+id/button_dotransaction"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_printlogo"
+        android:layout_alignTop="@+id/button_printlogo"
+        android:text="@string/button_dotransaction" />
+    
+    <Button
+        android:id="@+id/button_dotransactionex"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_dotransaction"
+        android:layout_alignTop="@+id/button_dotransaction"
+        android:text="@string/button_dotransactionex" />
+
+    <Button
+        android:id="@+id/button_doupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_resetterm"
+        android:layout_alignTop="@+id/button_resetterm"
+        android:text="@string/button_doupdate" />
+    
+    <Button
+        android:id="@+id/button_resetterm"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_sendmsg"
+        android:text="@string/button_resetterm" />
+
+    <Button
+        android:id="@+id/button_sendmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_getterminfo"
+        android:text="@string/button_sendmsg" />
+
+
+
+    <Button
+        android:id="@+id/button_recvmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_sendmsg"
+        android:layout_alignTop="@+id/button_sendmsg"
+        android:text="@string/button_recvmsg" />
+    
+    <Button
+        android:id="@+id/button_flushmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_recvmsg"
+        android:layout_alignTop="@+id/button_sendmsg"
+        android:text="@string/button_flushmsg" />
+    
+    <TextView
+        android:id="@+id/TextView_command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_m2osshortcut"
+        android:layout_toRightOf="@+id/button_m2osshortcut"
+        android:layout_marginLeft="5dp"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="@string/TextView_command" />
+    
+    <Button
+        android:id="@+id/button_closebarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/button_openbarcode"
+        android:layout_alignTop="@+id/button_openbarcode"
+        android:text="@string/button_closebarcode" />
+    
+    <Button
+        android:id="@+id/button_openbarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_resetterm"
+        android:text="@string/button_openbarcode" />
+    
+    <Button
+        android:id="@+id/button_opentcp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button_resetterm"
+        android:layout_alignBottom="@+id/button_resetterm"
+        android:layout_toRightOf="@+id/button_doupdate"
+        android:text="@string/button_opentcp" />
+    
+    <Button
+        android:id="@+id/button_closetcp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button_resetterm"
+        android:layout_alignBottom="@+id/button_resetterm"
+        android:layout_toRightOf="@+id/button_opentcp"
+        android:text="@string/button_closetcp" />
+    
+    <TextView
+        android:id="@+id/TextView_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_command"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/TextView_command"
+        android:text="@string/TextView_status" />
+    
+    <TextView
+        android:id="@+id/TextView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_status"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/TextView_status"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="@string/TextView_result" />
+    
+    <ListView
+        android:id="@+id/listViewBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_result"
+        android:layout_alignLeft="@+id/TextView_result" >
+    </ListView>
+
+</RelativeLayout>

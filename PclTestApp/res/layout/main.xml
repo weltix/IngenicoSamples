@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button_gettime"
+        android:text="@string/button_start" />
+
+    <Button
+        android:id="@+id/button_printtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_start"
+        android:layout_marginTop="149dp"
+        android:text="@string/button_printtext" />
+
+    <Button
+        android:id="@+id/button_gettime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_start"
+        android:layout_marginTop="24dp"
+        android:text="@string/button_gettime" />
+
+    <Button
+        android:id="@+id/button_printbitmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_printtext"
+        android:layout_marginTop="35dp"
+        android:text="@string/button_printbitmap" />
+
+    <Button
+        android:id="@+id/button_settime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_gettime"
+        android:layout_alignBottom="@+id/button_gettime"
+        android:layout_toRightOf="@+id/button_printbitmap"
+        android:text="@string/button_settime" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_printtext"
+        android:layout_alignLeft="@+id/button_settime"
+        android:layout_alignRight="@+id/button_settime"
+        android:text="@string/button_stop" />
+
+    <EditText
+        android:id="@+id/editText_printtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_settime"
+        android:layout_alignTop="@+id/button_printtext"
+        android:ems="10"
+        android:text="@string/edit_printtext" />
+
+    <TextView
+        android:id="@+id/TextView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/editText_printtext"
+        android:ems="10"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_getterminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/button_getterminfo" />
+
+    <TextView
+        android:id="@+id/textView_terminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView_result"
+        android:layout_centerVertical="true"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_gettermcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_getterminfo"
+        android:layout_marginTop="41dp"
+        android:text="@string/button_gettermcomp" />
+
+</RelativeLayout>
