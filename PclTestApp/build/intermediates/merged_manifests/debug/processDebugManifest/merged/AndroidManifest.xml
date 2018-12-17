@@ -23,6 +23,7 @@
         android:debuggable="true"
         android:icon="@drawable/ic_ingenico"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@android:style/Theme.Light" >
         <activity
             android:name="com.ingenico.pcltestappwithlib.SplashActivity"

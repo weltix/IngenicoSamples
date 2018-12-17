@@ -23,7 +23,7 @@ android {
             java.srcDirs = ['src']
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
-			jniLibs.srcDirs = ['../libs/armeabi']
+			jniLibs.srcDirs = ['../libs']
         }
     }
 
@@ -38,7 +38,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: '../libs', include: ['*.jar'])
-    implementation fileTree(dir: 'lib', include: ['**/*.so'])
+    implementation fileTree(dir: '../libs', include: ['**/*.so'])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
 }
