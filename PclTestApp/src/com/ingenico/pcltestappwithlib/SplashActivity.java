@@ -12,7 +12,7 @@ public class SplashActivity extends CommonActivity {
     /**
      * The thread to process splash screen events
      */
-    private Thread mSplashThread; 
+    private Thread mSplashThread;
 
     /** Called when the activity is first created. */
     @Override
@@ -20,8 +20,7 @@ public class SplashActivity extends CommonActivity {
         super.onCreate(icicle);
         setContentView(R.layout.splash);
         initService();
-        
-        
+
         // The thread to wait for splash screen events
         mSplashThread =  new Thread(){
             @Override
@@ -29,24 +28,24 @@ public class SplashActivity extends CommonActivity {
                 try {
                     synchronized(this){
                         // Wait given period of time or exit on touch
-                    	this.wait(SPLASH_DISPLAY_LENGTH);
+                        this.wait(SPLASH_DISPLAY_LENGTH);
                     	Log.d(TAG, "SplashActivity start");
                     }
                 }
-                catch(InterruptedException ex){                    
+                catch(InterruptedException ex){
                 }
 
                 finish();
-                
+
                 // Run next activity
                 Intent intent = new Intent();
                 intent.setClass(SplashActivity.this, WelcomeActivity.class);
                 startActivity(intent);
-                //stop();                    
+                //stop();
             }
         };
-        
-        mSplashThread.start();      
+
+        mSplashThread.start();
     }
 
 	@Override

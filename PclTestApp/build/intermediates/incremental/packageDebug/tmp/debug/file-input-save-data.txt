@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 17 10:21:10 EET 2018
+#Thu Dec 20 16:22:39 EET 2018
 56.path=Strato-linked.ttf
 5.base=D\:\\Projects\\IngenicoSamples\\pcltestapp\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 42.base=D\:\\Projects\\IngenicoSamples\\pcltestapp\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
